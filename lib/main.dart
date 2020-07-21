@@ -48,7 +48,7 @@ class _MyGetHttpDataState extends State<MyGetHttpData> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Retrieve JSON Data via HTTP get'),
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Colors.blueAccent,
       ),
       //creating alistview andload data when available
       body: ListView.builder(
@@ -69,8 +69,8 @@ class _MyGetHttpDataState extends State<MyGetHttpData> {
                         style: TextStyle(
                             fontSize: 20.0, color: Colors.lightBlueAccent),
                       ),
-                      //added padding
                       padding: const EdgeInsets.all(15.0),
+                      //padding added
                     ),
                   )
                 ],
